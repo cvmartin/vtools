@@ -13,3 +13,4 @@ remove_app <- function(app) {
                      app)
   system(command)
 }
+
