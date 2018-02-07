@@ -2,9 +2,9 @@ Package: vtools
 Type: Package
 Title: Functions that I find useful
 Version: 0.1.1
-Author: person("Carlos", "Varela Martín", email = "cvarelamail@gmail.com",
+Author: person("Carlos", "Varela Mart?n", email = "cvarelamail@gmail.com",
     role = c("aut", "cre"))
-Maintainer: Carlos Varela Martín <cvarelamail@gmail.com>
+Maintainer: Carlos Varela Mart?n <cvarelamail@gmail.com>
 Description: Functions to work with shiny, time series and 
     devwork with Amazon Web Services. 
 License: GPL-2
@@ -15,3 +15,6 @@ Imports: zoo,
     dygraphs,
     dplyr
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

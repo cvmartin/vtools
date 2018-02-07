@@ -8,9 +8,6 @@
 #' @param df Data frame where the first column is a POXIXct objet or convertible.
 #'
 #' @return Time series indexed by the first column of df.
-
-
-
 df_to_ts <- function(df) {
   require(xts)
   new_ts <- xts(x = df[, 2:(length(colnames(df)))], order.by = df[[1]])
