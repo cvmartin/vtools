@@ -1,11 +1,17 @@
 Package: vtools
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Functions that I find useful
+Version: 0.1.1
+Author: person("Carlos", "Varela Martín", email = "cvarelamail@gmail.com",
+    role = c("aut", "cre"))
+Maintainer: Carlos Varela Martín <cvarelamail@gmail.com>
+Description: Functions to work with shiny, time series and 
+    devwork with Amazon Web Services. 
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports: zoo, 
+    xts,
+    dygraphs,
+    dplyr
+RoxygenNote: 6.0.1
