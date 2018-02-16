@@ -33,9 +33,7 @@ first argument.
 }
 \examples{
 sum(1:10)
-sum(1:5, 6:10)
-sum(F, F, F, T, T)
-
+sum(1:5, 6:10)#'
 sum(.Machine$integer.max, 1L)
 sum(.Machine$integer.max, 1)
 
