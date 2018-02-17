@@ -13,7 +13,6 @@ LazyData: true
 Imports: zoo, 
     xts,
     magrittr,
-    lubridate,
     dygraphs,
     dplyr,
     Rcpp
