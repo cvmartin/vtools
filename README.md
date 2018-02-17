@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-vtools <img src="man/figures/eflowsicon.png" align="right" />
-=============================================================
+vtools <img src="man/figures/eflowsicon.png" align="right" width="140" />
+=========================================================================
 
 [![Travis Build Status](https://travis-ci.org/cvmartin/vtools.svg?branch=master)](https://travis-ci.org/cvmartin/vtools)
 
